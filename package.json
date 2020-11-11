@@ -4,7 +4,7 @@
   "description": "Utility CSS",
   "main": "index.js",
   "scripts": {
-    "compile": "node-sass -w scss/style.scss dist/style.css",
+    "compile": "node-sass -w --output-style expanded scss/style.scss dist/style.css",
     "compile:min": "node-sass --output-style compressed scss/style.scss dist/minified/style.min.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

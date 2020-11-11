@@ -1,6 +1,5 @@
-$light-color: #f5f2ff;
-
-* {
-  box-sizing: border-box;
-  background-color: $light-color;
-}
+@import "config";
+@import "utilities";
+@import "card";
+@import "button";
+@import "input";

@@ -1,0 +1,64 @@
+$font-stack: Arial, sans-serif;
+$primary-bg-color: #f5f5f5;
+$primary-color: #ffffff;
+
+// Margin and padding utils
+$spacevalues: (75, 1, 125, 15, 2, 3, 4, 5, 6);
+
+@each $space in $spacevalues {
+  .m-#{$space} {
+    margin: #{$space}em;
+  }
+
+  .my-#{$space} {
+    margin: #{$space}em 0;
+  }
+
+  .mx-#{$space} {
+    margin: 0 #{$space}em;
+  }
+
+  .mt-#{$space} {
+    margin: #{$space}em 0;
+  }
+
+  .mb-#{$space} {
+    margin: #{$space}em 0;
+  }
+
+  .ml-#{$space} {
+    margin: #{$space}em 0;
+  }
+
+  .mr-#{$space} {
+    margin: #{$space}em 0;
+  }
+
+  .p-#{$space} {
+    padding: #{$space}em;
+  }
+
+  .py-#{$space} {
+    padding: #{$space}em 0;
+  }
+
+  .px-#{$space} {
+    padding: 0 #{$space}em;
+  }
+
+  .pt-#{$space} {
+    padding: 0 #{$space}em;
+  }
+
+  .pb-#{$space} {
+    padding: 0 #{$space}em;
+  }
+
+  .pl-#{$space} {
+    padding: 0 #{$space}em;
+  }
+
+  .pr-#{$space} {
+    padding: 0 #{$space}em;
+  }
+}
