@@ -1,0 +1,15 @@
+{
+  "name": "utility-css",
+  "version": "0.0.1",
+  "description": "Utility CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "utility",
+    "css"
+  ],
+  "author": "AK",
+  "license": "MIT"
+}
