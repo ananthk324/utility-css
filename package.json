@@ -4,6 +4,8 @@
   "description": "Utility CSS",
   "main": "index.js",
   "scripts": {
+    "compile": "node-sass -w scss/style.scss dist/style.css",
+    "compile:min": "node-sass --output-style compressed scss/style.scss -o dist/minified",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -11,5 +13,8 @@
     "css"
   ],
   "author": "AK",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
